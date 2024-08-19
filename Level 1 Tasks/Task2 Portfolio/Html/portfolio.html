@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="./Css/styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="profile-card">
+                <img src="./Images/MyPhoto/photo.jpg" alt="Your Name" class="profile-image">
+                <div class="profile-info">
+                    <h1>Pavithra Anandakumar</h1>
+                    <p>Currently an IT Student</p>
+                    <button onclick="scrollToSection('contact')">Get In Touch</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Pavithra Anandakumar, Dedicated IT student with practical experience in software engineering, Java
+            development, and web development. Completed 2+ virtual internships,
+            including roles at DevSkillHub and Oasis Infobyte. Eager to apply strong work
+            ethic and passion for technology in an entry-level opportunity to contribute to
+            projects and organizational goals... Feel free to download my 
+            <a href="./Images/Myresume/PAVITHRA-ANANDAKUMAR-Resume.pdf" download>resume</a>.
+        </p>
+    </section>
+
+    
+    <section id="skills">
+        <h2>My Skills:</h2>
+        <div class="skill-container">
+            <div class="skill-bar" data-skill="HTML">
+                <span>Java</span>
+                <div class="progress"><div class="progress-value" style="width: 90%;"></div></div>
+            </div>
+
+            <div class="skill-bar" data-skill="HTML">
+                <span>HTML</span>
+                <div class="progress"><div class="progress-value" style="width: 90%;"></div></div>
+            </div>
+
+            <div class="skill-bar" data-skill="CSS">
+                <span>CSS</span>
+                <div class="progress"><div class="progress-value" style="width: 80%;"></div></div>
+            </div>
+
+            <div class="skill-bar" data-skill="JavaScript">
+                <span>JavaScript</span>
+                <div class="progress"><div class="progress-value" style="width: 75%;"></div></div>
+            </div>
+
+            <div class="skill-bar" data-skill="HTML">
+                <span>Linux</span>
+                <div class="progress"><div class="progress-value" style="width: 90%;"></div></div>
+            </div>
+
+            <div class="skill-bar" data-skill="HTML">
+                <span>C Programming</span>
+                <div class="progress"><div class="progress-value" style="width: 90%;"></div></div>
+            </div>
+
+            <div class="skill-bar" data-skill="HTML">
+                <span>C++ Programming</span>
+                <div class="progress"><div class="progress-value" style="width: 90%;"></div></div>
+            </div>
+
+            <div class="skill-bar" data-skill="HTML">
+                <span>Python Basics</span>
+                <div class="progress"><div class="progress-value" style="width: 90%;"></div></div>
+            </div>
+
+            
+        </div>
+    </section>
+
+    
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>SnakeGame Using Java</h3>
+                <p>Interactive and user friendly Game Application</p>
+                <a href="project-link-1.com" target="_blank">View Project</a>
+            </div>
+            
+        </div>
+
+        <div class="projects">
+            <div class="project">
+                <h3>Tic-Tac-Toe Using Java</h3>
+                <p>Interactive and user friendly Game Application</p>
+                <a href="project-link-1.com" target="_blank">View Project</a>
+            </div>
+        </div>
+
+        <div class="projects">
+            <div class="project">
+                <h3>Banking Application GUI Using Java</h3>
+                <p>Most secure and GUI based Banking Application</p>
+                <a href="project-link-1.com" target="_blank">View Project</a>
+            </div>
+            
+        </div>
+
+        <div class="projects">
+            <div class="project">
+                <h3>Number Guessing Game Using Java</h3>
+                <p>Interactive and user friendly Game Application</p>
+                <a href="project-link-1.com" target="_blank">View Project</a>
+            </div>
+            
+        </div>
+
+        <div class="projects">
+            <div class="project">
+                <h3>Movie Seat Book Website using HTML, CSS and JavaScript</h3>
+                <p>Interactive and user friendly Website</p>
+                <a href="project-link-1.com" target="_blank">View Project</a>
+            </div>
+            
+        </div>
+
+        <div class="projects">
+            <div class="project">
+                <h3>Doctor Booking Website using HTML, CSS and JavaScript</h3>
+                <p>Interactive and user friendly Website</p>
+                <a href="project-link-1.com" target="_blank">View Project</a>
+            </div>
+            
+        </div>
+
+        <div class="projects">
+            <div class="project">
+                <h3>Simple LandingPage using HTML, CSS and JavaScript</h3>
+                <p>Interactive and user friendly Website for beauty Products</p>
+                <a href="project-link-1.com" target="_blank">View Project</a>
+            </div>
+            
+        </div>
+
+        <div class="projects">
+            <div class="project">
+                <h3>Library Management System using Java</h3>
+                <p>Interactive and user friendly Library Management System</p>
+                <a href="project-link-1.com" target="_blank">View Project</a>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    
+    <footer>
+
+        <p><b>Contact Us:</b> +91 9876543210</p><br>
+        <p><b>Email:</b> Pavithra.a@gmail.com</p><br>
+        <p><b>GitHub</b><a href="https://github.com/Pavithra-Anandakumar">GitHub</a></p><br>
+        <p><b>LinkedIn</b><a href="https://www.linkedin.com/in/pavithra-ananda-kumar-b77102265">LinkedIn</a></p><br>
+        <p>&copy; 2024. All rights reserved.</p>
+
+    </footer>
+
+    <script src="./JavaScript/script.js"></script>
+</body>
+</html>
