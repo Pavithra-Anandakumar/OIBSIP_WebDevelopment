@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div id="content">
+        
+        <div id="registration-form" class="form-container">
+            <h2>Register</h2>
+            <form id="register">
+                <label for="register-username">Username:</label>
+                <input type="text" id="register-username" required>
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password" required>
+                <button type="submit">Register</button>
+            </form>
+            <p id="register-msg"></p>
+            <a href="#" id="show-login">Already have an account? Login</a>
+        </div>
+
+        
+        <div id="login-form" class="form-container" style="display:none;">
+            <h2>Login</h2>
+            <form id="login">
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" required>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p id="login-msg"></p>
+            <a href="#" id="show-register">Don't have an account? Register</a>
+        </div>
+
+        
+        <div id="secured-page" class="form-container" style="display:none;">
+            <h2>Secured Page</h2>
+            <p>Welcome to the secured page!</p>
+            <button id="logout">Logout</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
