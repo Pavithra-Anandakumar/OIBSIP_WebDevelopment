@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <img src="your-image.jpg" alt="Your Name" class="profile-image">
+            <h1>Your Name</h1>
+            <p>Your Tagline or Short Introduction</p>
+            <button onclick="scrollToSection('contact')">Get In Touch</button>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Pavithra Anandakumar, Dedicated IT student with practical experience in software engineering,
+            Java
+            development, and web development. Completed 2+ virtual internships,
+            including roles at DevSkillHub and Oasis Infobyte. Eager to apply strong work
+            ethic and passion for technology in an entry-level opportunity to contribute to
+            projects and organizational goals.
+            Feel free to download my
+            <a href="your-resume.pdf" download>resume</a>.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill-container">
+            <div class="skill-bar" data-skill="JavaScript">
+                <span>Java</span>
+                <div class="progress">
+                    <div class="progress-value" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar" data-skill="HTML">
+                <span>HTML</span>
+                <div class="progress">
+                    <div class="progress-value" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar" data-skill="CSS">
+                <span>CSS</span>
+                <div class="progress">
+                    <div class="progress-value" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar" data-skill="JavaScript">
+                <span>JavaScript</span>
+                <div class="progress">
+                    <div class="progress-value" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar" data-skill="JavaScript">
+                <span>SQL</span>
+                <div class="progress">
+                    <div class="progress-value" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill-bar" data-skill="JavaScript">
+                <span>Linux</span>
+                <div class="progress">
+                    <div class="progress-value" style="width: 70%;"></div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Works</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="./" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>Short description of the project.</p>
+                <a href="project-link-1.com" target="_blank">View Project</a>
+            </div>
+            <!-- Repeat for more projects -->
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Pavithra. All rights reserved.</p>
+        <p><b style="color: black;">My email:</b><a href=""> pavithraanandakumar.a@gmail.com</a></p>
+        <p><b style="color: black;">Contact me:</b><a href=""> +91 6381847003</a></p>
+        <p><b style="color: black;">LinkedIn: </b><a href="https://www.linkedin.com/in/pavithra-ananda-kumar-b77102265">LinkedIn</a></p>
+        <p><b style="color: black;">GitHub: </b><a href="https://github.com/Pavithra-Anandakumar"> GitHub Link</a></p>
+        
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

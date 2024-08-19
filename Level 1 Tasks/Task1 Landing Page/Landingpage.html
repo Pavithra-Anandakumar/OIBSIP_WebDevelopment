@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Products Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1><span class="highlight">Glow</span> Beauty</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <img src="./Images/front.jpg">
+            <h2>Welcome to <span class="highlight">Radiant Beauty</span></h2>
+            <p>Enhance your natural beauty with our luxurious products</p>
+            <button class="cta-button" onclick="scrollToSection('about')">Explore Now</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Glow Beauty, we believe in the power of nature and science combined to bring you the best in skincare and beauty. Our products are crafted with love, ensuring you get the best quality and care.</p>
+            <img src="./Images/1.webp" alt="About Us">
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-item">
+                <img src="./Images/serum.jpeg" alt="Radiant Glow Serum">
+                <h3>Radiant Glow Serum</h3>
+                <p>A powerful serum that revitalizes your skin, leaving it radiant and glowing.</p>
+            </div>
+            <div class="product-item">
+                <img src="./Images/lipstick.jpeg" alt="Velvet Matte Lipstick">
+                <h3>Velvet Matte Lipstick</h3>
+                <p>Long-lasting, rich color with a smooth, velvety finish that hydrates your lips.</p>
+            </div>
+            <div class="product-item">
+                <img src="./Images/mois.jpeg" alt="Hydrating Moisturizer">
+                <h3>Hydrating Moisturizer</h3>
+                <p>A deeply nourishing moisturizer that keeps your skin soft and supple all day.</p>
+            </div>
+
+
+            <div class="product-item">
+                <img src="./Images/facewash.jpeg" alt="Hydrating facewash">
+                <h3>Hydrating facewash</h3>
+                <p>A deep cleaning Face wash.</p>
+            </div>
+            <div class="product-item">
+                <img src="./Images/sunscreen.jpeg" alt="Protecting Sunscreen">
+                <h3>Protecting Sunscreen</h3>
+                <p>Sunscreen is a simple and effective way to protect your skin from the sun's harmful ultraviolet (UV) rays.</p>
+            </div>
+            <div class="product-item">
+                <img src="./Images/foun.jpeg" alt="High Coverage Foundation">
+                <h3>High Coverage Foundation</h3>
+                <p>A High Coverage Foundation can also improve your natural beauty.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="order" class="order">
+        <div class="container">
+            <h2>Place Your Order</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Product Name" required>
+                <input type="number" placeholder="Quantity" required>
+                <textarea placeholder="Additional Notes"></textarea>
+                <button type="submit" class="cta-button">Submit Order</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        
+        <p><b style="color: black;">Contact Us:</b> +91 9876543210</p><br>
+        <p><b style="color: black;">Email:</b> glowbeauty@gmail.com</p><br>
+        <p><b style="color: black;">Follow Us:</b><i> On Instagram</i> Glow_Beauty</p><br>
+        <p><b style="color: black;">Follow Us:</b><i> On Telegram</i><a href=""> Telegram Glow beauty</a></p><br>
+        <p><b style="color: black;">Follow Us:</b><i> On X</i> Glow BeautyX</p><br>
+        <p>&copy; 2024 Glow Beauty. All rights reserved.</p><br>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
